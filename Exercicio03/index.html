@@ -1,5 +1,12 @@
+<!-- 3 - Página de Portfólio:
+● Tag HTML: <div>
+● Propriedade CSS: grid
+Construa uma página de portfólio com uma grade de imagens representando outros
+exercícios desta lista, usando a tag <div> para criar a grade e aplicando a
+propriedade grid para o layout. -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +14,47 @@
     <title>Exercicio03</title>
 </head>
 
-<header>
-
-    <nav></nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-</header>
 <body>
-    
+    <header>
+        <h1>Titanic´s Portifólio</h1>
+    </header>
+    <section class="portfolio-grid">
+        <div class="grid-item">
+            <img src="Introdução.avif" alt="Perfume 1">
+            <p>Introdução</p>
+            <ul>A seguir, confiram alguns de nossos modelos mais vendidos e uma breve descrição sobre eles</ul>
+        </div>
+        <div class="grid-item">
+            <img src="Perfume02.jpeg" alt="Perfume 1">
+            <p>Perfume 1</p>
+            <ul>Com seu cheiro amadeirado, tem como maior qualidade a permanencia no corpo e a força de permanência.</ul>
+
+        </div>
+        <div class="grid-item">
+            <img src="Perfume03.jpeg" alt="Perfume 2">
+            <p>Perfume 2</p>
+            <ul>Com seu cheiro amadeirado, tem como maior qualidade a permanencia no corpo e a força de permanência.
+            </ul>
+        </div>
+        <div class="grid-item">
+            <img src="Perfume04.jpeg" alt="Perfume 3">
+            <p>Perfume 3</p>
+            <ul>Com seu cheiro amadeirado, tem como maior qualidade a permanencia no corpo e a força de permanência.
+            </ul>
+        </div>
+        <div class="grid-item">
+            <img src="Perfume05.jpeg" alt="Perfume4">
+            <p>Perfume 4</p>
+            <ul>Com seu cheiro amadeirado, tem como maior qualidade a permanencia no corpo e a força de permanência.
+            </ul>
+        </div>
+        <div class="grid-item">
+            <img src="Perfume06.jpeg" alt="Perfume 5">
+            <p>Perfume 5</p>
+            <ul>Com seu cheiro amadeirado, tem como maior qualidade a permanencia no corpo e a força de permanência.
+            </ul>
+        </div>
+    </section>
 </body>
+
 </html>

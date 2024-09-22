@@ -1,0 +1,32 @@
+body {
+
+
+    background-image: url("Girassois.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: top;
+    background-position-x: center;
+    
+    
+} 
+
+    header{
+        
+        h1 {
+            text-align: center;
+            margin: 0%;
+            color: blueviolet;
+        }
+        
+        p{
+            
+            
+            text-align: center;
+            margin: 10%;
+            color: black;
+            font-size: larger;
+        
+            
+        }
+        
+    }

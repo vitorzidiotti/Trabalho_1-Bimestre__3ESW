@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    flex-direction: row;
+
+    img {
+        border-radius: 500px;
+        margin: 0%;
+        width: 30%;
+
+    }
+
+    h1 {
+
+        align-self: top;
+        font-size:xx-large ;
+
+    }
+
+
+}
+
+body {
+    
+    background-color: rgb(164, 192, 192);
+
+lu{
+line-height: 30px;
+
+}
+
+}

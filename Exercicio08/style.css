@@ -14,7 +14,7 @@ body {
     height: 100vh;
 }
 
-.product-container {
+.Produto {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -23,25 +23,25 @@ body {
     max-width: 400px;
 }
 
-.product-container h1 {
+.Produto h1 {
     margin-bottom: 20px;
     color: #333;
 }
 
-.product-container img {
+.Produto img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
-.product-container .description {
+.Produto .Descrição {
     font-size: 16px;
     margin-bottom: 20px;
     color: #666;
 }
 
-.product-container .price {
+.Produto .Preço {
     font-size: 20px;
     margin-bottom: 20px;
     font-weight: bold;

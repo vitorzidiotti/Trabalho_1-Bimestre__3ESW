@@ -1,0 +1,46 @@
+<!-- 9 - Página de Lista de Tarefas:
+● Tag HTML: <input>
+● Propriedade CSS: text-decoration
+Construa uma página de lista de tarefas com caixas de seleção para marcar as
+tarefas concluídas e botões para adicionar, editar e excluir tarefas. Estilize as caixas
+de seleção aplicando a propriedade text-decoration.
+ -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Exercicio09</title>
+</head>
+<body>
+    <h1>Tarefas diárias</h1>
+
+    <form>
+        <input type="texto" placeholder="Digite uma nova tarefa..." enabble>
+        <button type="botão" disabled>Adicionar</button>
+    </form>
+
+    <ul>
+        <li>
+            <input type="checkbox" id="tarefa1">
+            <label for="tarefa1">Tarefa 1: Odiar Java</label>
+            <button type="botão" disabled>Editar</button>
+            <button type="botão" disabled>Excluir</button>
+        </li>
+        <li>
+            <input type="checkbox" id="tarefa2">
+            <label for="tarefa2">Tarefa 2: Pregar que java é ruim</label>
+            <button type="botão" disabled>Editar</button>
+            <button type="botão" disabled>Excluir</button>
+        </li>
+        <li>
+            <input type="checkbox" id="tarefa3">
+            <label for="tarefa3">Tarefa 3: Estudar o porquê java é tão ruim</label>
+            <button type="botão" disabled>Editar</button>
+            <button type="botão" disabled>Excluir</button>
+        </li>
+    </ul>
+    
+</body>
+</html>

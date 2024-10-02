@@ -27,10 +27,10 @@ h1 {
 
 
 .Pagina_Inicial {
-    list-style-type: none; /* Remove as marcas da lista */
-    display: flex; /* Alinha os itens em linha */
-    flex-direction: row; /* Define a direção da flexbox como linha */
-    justify-content: space-around; /* Distribui espaço entre os itens */
+    list-style-type: none; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
 
     
 }
@@ -40,16 +40,15 @@ h1 {
 }
 
 .sitemap {
-    list-style-type: none; /* Remove as marcas da lista */
-    display: flex; /* Alinha os itens em linha */
-    flex-direction: row; /* Define a direção da flexbox como linha */
-    flex-wrap: wrap; /* Permite que os itens quebrem para outra linha se necessário */
-    justify-content: space-around; /* Distribui espaço entre os itens */
+    list-style-type: none; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around; 
 }
 
 .sitemap li {
     margin-bottom: 5px;
-    margin-right: 20px; /* Adiciona um espaçamento entre os itens */
+    margin-right: 20px; 
 }
 
 .sitemap a {
@@ -58,7 +57,7 @@ h1 {
 }
 
 .sitemap a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    text-decoration: underline;
 }
 .soberanoSobre{
     list-style-type: none;
@@ -76,10 +75,10 @@ h1 {
     font-size: larger;
 }
 .sitemap ul {
-    margin-top: 5px; /* Espaço entre a lista principal e a sublista */
-    padding-left: 20px; /* Recuo na sublista */
+    margin-top: 5px;
+    padding-left: 20px; 
 }
 
 .sitemap ul li {
-    text-indent: 2px; /* Recuo do texto na sublista */
+    text-indent: 2px; 
 }

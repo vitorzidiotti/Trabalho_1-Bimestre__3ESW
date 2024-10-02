@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.sitemap-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(14, 14, 14, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.Pagina_Inicial {
+    list-style-type: none; /* Remove as marcas da lista */
+    display: flex; /* Alinha os itens em linha */
+    flex-direction: row; /* Define a direção da flexbox como linha */
+    justify-content: space-around; /* Distribui espaço entre os itens */
+
+    
+}
+.Pagina_Inicial a{
+    color: red;
+    font-size: x-large;
+}
+
+.sitemap {
+    list-style-type: none; /* Remove as marcas da lista */
+    display: flex; /* Alinha os itens em linha */
+    flex-direction: row; /* Define a direção da flexbox como linha */
+    flex-wrap: wrap; /* Permite que os itens quebrem para outra linha se necessário */
+    justify-content: space-around; /* Distribui espaço entre os itens */
+}
+
+.sitemap li {
+    margin-bottom: 5px;
+    margin-right: 20px; /* Adiciona um espaçamento entre os itens */
+}
+
+.sitemap a {
+    text-decoration: none;
+    color: #0077b5;
+}
+
+.sitemap a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+.soberanoSobre{
+    list-style-type: none;
+    color: darkblue;
+    font-size: larger;
+}
+.Servicos{
+    list-style-type: none;
+    color: darkblue;
+    font-size: larger;
+}
+.Contato{
+    list-style-type: none;
+    color: darkblue;
+    font-size: larger;
+}
+.sitemap ul {
+    margin-top: 5px; /* Espaço entre a lista principal e a sublista */
+    padding-left: 20px; /* Recuo na sublista */
+}
+
+.sitemap ul li {
+    text-indent: 2px; /* Recuo do texto na sublista */
+}

@@ -1,0 +1,64 @@
+<!-- 15 - Página de Lançamento de Produto:
+● Tag HTML: <time>
+● Propriedade CSS: animation
+Crie uma página de lançamento de produto com uma contagem regressiva para a
+data de lançamento, imagens do produto, recursos destacados e um formulário de
+pré-venda. Utilize a tag <time> para exibir a contagem regressiva e aplique a
+propriedade animation para adicionar uma animação à contagem regressiva.
+Esses requisitos de tags e propriedades obrigatórias ajudarão a praticar o uso de
+tags HTML específicas e propriedades CSS relevantes em cada exercício,
+aprimorando assim as habilidades em HTML e CSS para o desenvolvimento web. -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Exercicio15</title>
+</head>
+<body>
+    <header>
+        <h1>Novo iPhone 17 Pro Max Ultra</h1>
+    </header>
+
+    <main>
+        <section class="lançamento">
+            <h2>Prepare-se para o terror da Samsung!</h2>
+            <p>O monstro será liberado quando o cronometro bater 00:00!!!</p>
+            
+            <div class="countdown">
+                <time></time>
+            </div>
+
+            <div class="informacoesdoproduto">
+                <img src="Fotos/Iphone17.webp" alt="iPhone17" class="imagemdoproduto">
+                <ul>
+                    <li>Recurso 1:</strong> Mais memória.</li>
+                    <li>Recurso 2:</strong> Mais processamento.</li>
+                    <li>Recurso 3:</strong> Mais utilidades.</li>
+                </ul>
+            </div>
+
+            <section class="pre-venda">
+                <form action="#">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="CPF">CPF:</label>
+                    <input type="CPF" id="CPF" name="CPF" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+
+                    <label for="CEP">CEP:</label>
+                    <input type="CEP" id="CEP" name="CEP" required>
+                    
+
+                    <button type="submit">Comprar na Pré-Venda</button>
+                </form>
+            </section>
+        </section>
+    </main>
+</body>
+</html>

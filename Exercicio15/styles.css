@@ -1,0 +1,1031 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #3dd83d;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+    margin: 0 auto;
+    width: 800px;
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #4a90e2;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.lançamento {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.countdown time::before {
+    content: "00:05:00";
+    font-size: 4rem;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+    animation: countdown 150s steps(300) forwards infinite;
+}
+
+@keyframes countdown {
+    1% {
+        content: "04:59";
+    }
+    2% {
+        content: "04:58";
+    }
+    3% {
+        content: "04:57";
+    }
+    4% {
+        content: "04:56";
+    }
+    5% {
+        content: "04:55";
+    }
+    6% {
+        content: "04:54";
+    }
+    7% {
+        content: "04:53";
+    }
+    8% {
+        content: "04:52";
+    }
+    9% {
+        content: "04:51";
+    }
+    10% {
+        content: "04:50";
+    }
+    11% {
+        content: "04:49";
+    }
+    12% {
+        content: "04:48";
+    }
+    13% {
+        content: "04:47";
+    }
+    14% {
+        content: "04:46";
+    }
+    15% {
+        content: "04:45";
+    }
+    16% {
+        content: "04:44";
+    }
+    17% {
+        content: "04:43";
+    }
+    18% {
+        content: "04:42";
+    }
+    19% {
+        content: "04:41";
+    }
+    20% {
+        content: "04:40";
+    }
+    21% {
+        content: "04:39";
+    }
+    22% {
+        content: "04:38";
+    }
+    23% {
+        content: "04:37";
+    }
+    24% {
+        content: "04:36";
+    }
+    25% {
+        content: "04:35";
+    }
+    26% {
+        content: "04:34";
+    }
+    27% {
+        content: "04:33";
+    }
+    28% {
+        content: "04:32";
+    }
+    29% {
+        content: "04:31";
+    }
+    30% {
+        content: "04:30";
+    }
+    31% {
+        content: "04:29";
+    }
+    32% {
+        content: "04:28";
+    }
+    33% {
+        content: "04:27";
+    }
+    34% {
+        content: "04:26";
+    }
+    35% {
+        content: "04:25";
+    }
+    36% {
+        content: "04:24";
+    }
+    37% {
+        content: "04:23";
+    }
+    38% {
+        content: "04:22";
+    }
+    39% {
+        content: "04:21";
+    }
+    40% {
+        content: "04:20";
+    }
+    41% {
+        content: "04:19";
+    }
+    42% {
+        content: "04:18";
+    }
+    43% {
+        content: "04:17";
+    }
+    44% {
+        content: "04:16";
+    }
+    45% {
+        content: "04:15";
+    }
+    46% {
+        content: "04:14";
+    }
+    47% {
+        content: "04:13";
+    }
+    48% {
+        content: "04:12";
+    }
+    49% {
+        content: "04:11";
+    }
+    50% {
+        content: "04:10";
+    }
+    51% {
+        content: "04:09";
+    }
+    52% {
+        content: "04:08";
+    }
+    53% {
+        content: "04:07";
+    }
+    54% {
+        content: "04:06";
+    }
+    55% {
+        content: "04:05";
+    }
+    56% {
+        content: "04:04";
+    }
+    57% {
+        content: "04:03";
+    }
+    58% {
+        content: "04:02";
+    }
+    59% {
+        content: "04:01";
+    }
+    60% {
+        content: "04:00";
+    }
+    61% {
+        content: "03:59";
+    }
+    62% {
+        content: "03:58";
+    }
+    63% {
+        content: "03:57";
+    }
+    64% {
+        content: "03:56";
+    }
+    65% {
+        content: "03:55";
+    }
+    66% {
+        content: "03:54";
+    }
+    67% {
+        content: "03:53";
+    }
+    68% {
+        content: "03:52";
+    }
+    69% {
+        content: "03:51";
+    }
+    70% {
+        content: "03:50";
+    }
+    71% {
+        content: "03:49";
+    }
+    72% {
+        content: "03:48";
+    }
+    73% {
+        content: "03:47";
+    }
+    74% {
+        content: "03:46";
+    }
+    75% {
+        content: "03:45";
+    }
+    76% {
+        content: "03:44";
+    }
+    77% {
+        content: "03:43";
+    }
+    78% {
+        content: "03:42";
+    }
+    79% {
+        content: "03:41";
+    }
+    80% {
+        content: "03:40";
+    }
+    81% {
+        content: "03:39";
+    }
+    82% {
+        content: "03:38";
+    }
+    83% {
+        content: "03:37";
+    }
+    84% {
+        content: "03:36";
+    }
+    85% {
+        content: "03:35";
+    }
+    86% {
+        content: "03:34";
+    }
+    87% {
+        content: "03:33";
+    }
+    88% {
+        content: "03:32";
+    }
+    89% {
+        content: "03:31";
+    }
+    90% {
+        content: "03:30";
+    }
+    91% {
+        content: "03:29";
+    }
+    92% {
+        content: "03:28";
+    }
+    93% {
+        content: "03:27";
+    }
+    94% {
+        content: "03:26";
+    }
+    95% {
+        content: "03:25";
+    }
+    96% {
+        content: "03:24";
+    }
+    97% {
+        content: "03:23";
+    }
+    98% {
+        content: "03:22";
+    }
+    99% {
+        content: "03:21";
+    }
+    100% {
+        content: "03:20";
+    }
+    101% {
+        content: "03:19";
+    }
+    102% {
+        content: "03:18";
+    }
+    103% {
+        content: "03:17";
+    }
+    104% {
+        content: "03:16";
+    }
+    105% {
+        content: "03:15";
+    }
+    106% {
+        content: "03:14";
+    }
+    107% {
+        content: "03:13";
+    }
+    108% {
+        content: "03:12";
+    }
+    109% {
+        content: "03:11";
+    }
+    110% {
+        content: "03:10";
+    }
+    111% {
+        content: "03:09";
+    }
+    112% {
+        content: "03:08";
+    }
+    113% {
+        content: "03:07";
+    }
+    114% {
+        content: "03:06";
+    }
+    115% {
+        content: "03:05";
+    }
+    116% {
+        content: "03:04";
+    }
+    117% {
+        content: "03:03";
+    }
+    118% {
+        content: "03:02";
+    }
+    119% {
+        content: "03:01";
+    }
+    120% {
+        content: "03:00";
+    }
+    121% {
+        content: "02:59";
+    }
+    122% {
+        content: "02:58";
+    }
+    123% {
+        content: "02:57";
+    }
+    124% {
+        content: "02:56";
+    }
+    125% {
+        content: "02:55";
+    }
+    126% {
+        content: "02:54";
+    }
+    127% {
+        content: "02:53";
+    }
+    128% {
+        content: "02:52";
+    }
+    129% {
+        content: "02:51";
+    }
+    130% {
+        content: "02:50";
+    }
+    131% {
+        content: "02:49";
+    }
+    132% {
+        content: "02:48";
+    }
+    133% {
+        content: "02:47";
+    }
+    134% {
+        content: "02:46";
+    }
+    135% {
+        content: "02:45";
+    }
+    136% {
+        content: "02:44";
+    }
+    137% {
+        content: "02:43";
+    }
+    138% {
+        content: "02:42";
+    }
+    139% {
+        content: "02:41";
+    }
+    140% {
+        content: "02:40";
+    }
+    141% {
+        content: "02:39";
+    }
+    142% {
+        content: "02:38";
+    }
+    143% {
+        content: "02:37";
+    }
+    144% {
+        content: "02:36";
+    }
+    145% {
+        content: "02:35";
+    }
+    146% {
+        content: "02:34";
+    }
+    147% {
+        content: "02:33";
+    }
+    148% {
+        content: "02:32";
+    }
+    149% {
+        content: "02:31";
+    }
+    150% {
+        content: "02:30";
+    }
+    151% {
+        content: "02:29";
+    }
+    152% {
+        content: "02:28";
+    }
+    153% {
+        content: "02:27";
+    }
+    154% {
+        content: "02:26";
+    }
+    155% {
+        content: "02:25";
+    }
+    156% {
+        content: "02:24";
+    }
+    157% {
+        content: "02:23";
+    }
+    158% {
+        content: "02:22";
+    }
+    159% {
+        content: "02:21";
+    }
+    160% {
+        content: "02:20";
+    }
+    161% {
+        content: "02:19";
+    }
+    162% {
+        content: "02:18";
+    }
+    163% {
+        content: "02:17";
+    }
+    164% {
+        content: "02:16";
+    }
+    165% {
+        content: "02:15";
+    }
+    166% {
+        content: "02:14";
+    }
+    167% {
+        content: "02:13";
+    }
+    168% {
+        content: "02:12";
+    }
+    169% {
+        content: "02:11";
+    }
+    170% {
+        content: "02:10";
+    }
+    171% {
+        content: "02:09";
+    }
+    172% {
+        content: "02:08";
+    }
+    173% {
+        content: "02:07";
+    }
+    174% {
+        content: "02:06";
+    }
+    175% {
+        content: "02:05";
+    }
+    176% {
+        content: "02:04";
+    }
+    177% {
+        content: "02:03";
+    }
+    178% {
+        content: "02:02";
+    }
+    179% {
+        content: "02:01";
+    }
+    180% {
+        content: "02:00";
+    }
+    181% {
+        content: "01:59";
+    }
+    182% {
+        content: "01:58";
+    }
+    183% {
+        content: "01:57";
+    }
+    184% {
+        content: "01:56";
+    }
+    185% {
+        content: "01:55";
+    }
+    186% {
+        content: "01:54";
+    }
+    187% {
+        content: "01:53";
+    }
+    188% {
+        content: "01:52";
+    }
+    189% {
+        content: "01:51";
+    }
+    190% {
+        content: "01:50";
+    }
+    191% {
+        content: "01:49";
+    }
+    192% {
+        content: "01:48";
+    }
+    193% {
+        content: "01:47";
+    }
+    194% {
+        content: "01:46";
+    }
+    195% {
+        content: "01:45";
+    }
+    196% {
+        content: "01:44";
+    }
+    197% {
+        content: "01:43";
+    }
+    198% {
+        content: "01:42";
+    }
+    199% {
+        content: "01:41";
+    }
+    200% {
+        content: "01:40";
+    }
+    201% {
+        content: "01:39";
+    }
+    202% {
+        content: "01:38";
+    }
+    203% {
+        content: "01:37";
+    }
+    204% {
+        content: "01:36";
+    }
+    205% {
+        content: "01:35";
+    }
+    206% {
+        content: "01:34";
+    }
+    207% {
+        content: "01:33";
+    }
+    208% {
+        content: "01:32";
+    }
+    209% {
+        content: "01:31";
+    }
+    210% {
+        content: "01:30";
+    }
+    211% {
+        content: "01:29";
+    }
+    212% {
+        content: "01:28";
+    }
+    213% {
+        content: "01:27";
+    }
+    214% {
+        content: "01:26";
+    }
+    215% {
+        content: "01:25";
+    }
+    216% {
+        content: "01:24";
+    }
+    217% {
+        content: "01:23";
+    }
+    218% {
+        content: "01:22";
+    }
+    219% {
+        content: "01:21";
+    }
+    220% {
+        content: "01:20";
+    }
+    221% {
+        content: "01:19";
+    }
+    222% {
+        content: "01:18";
+    }
+    223% {
+        content: "01:17";
+    }
+    224% {
+        content: "01:16";
+    }
+    225% {
+        content: "01:15";
+    }
+    226% {
+        content: "01:14";
+    }
+    227% {
+        content: "01:13";
+    }
+    228% {
+        content: "01:12";
+    }
+    229% {
+        content: "01:11";
+    }
+    230% {
+        content: "01:10";
+    }
+    231% {
+        content: "01:09";
+    }
+    232% {
+        content: "01:08";
+    }
+    233% {
+        content: "01:07";
+    }
+    234% {
+        content: "01:06";
+    }
+    235% {
+        content: "01:05";
+    }
+    236% {
+        content: "01:04";
+    }
+    237% {
+        content: "01:03";
+    }
+    238% {
+        content: "01:02";
+    }
+    239% {
+        content: "01:01";
+    }
+    240% {
+        content: "01:00";
+    }
+    241% {
+        content: "00:59";
+    }
+    242% {
+        content: "00:58";
+    }
+    243% {
+        content: "00:57";
+    }
+    244% {
+        content: "00:56";
+    }
+    245% {
+        content: "00:55";
+    }
+    246% {
+        content: "00:54";
+    }
+    247% {
+        content: "00:53";
+    }
+    248% {
+        content: "00:52";
+    }
+    249% {
+        content: "00:51";
+    }
+    250% {
+        content: "00:50";
+    }
+    251% {
+        content: "00:49";
+    }
+    252% {
+        content: "00:48";
+    }
+    253% {
+        content: "00:47";
+    }
+    254% {
+        content: "00:46";
+    }
+    255% {
+        content: "00:45";
+    }
+    256% {
+        content: "00:44";
+    }
+    257% {
+        content: "00:43";
+    }
+    258% {
+        content: "00:42";
+    }
+    259% {
+        content: "00:41";
+    }
+    260% {
+        content: "00:40";
+    }
+    261% {
+        content: "00:39";
+    }
+    262% {
+        content: "00:38";
+    }
+    263% {
+        content: "00:37";
+    }
+    264% {
+        content: "00:36";
+    }
+    265% {
+        content: "00:35";
+    }
+    266% {
+        content: "00:34";
+    }
+    267% {
+        content: "00:33";
+    }
+    268% {
+        content: "00:32";
+    }
+    269% {
+        content: "00:31";
+    }
+    270% {
+        content: "00:30";
+    }
+    271% {
+        content: "00:29";
+    }
+    272% {
+        content: "00:28";
+    }
+    273% {
+        content: "00:27";
+    }
+    274% {
+        content: "00:26";
+    }
+    275% {
+        content: "00:25";
+    }
+    276% {
+        content: "00:24";
+    }
+    277% {
+        content: "00:23";
+    }
+    278% {
+        content: "00:22";
+    }
+    279% {
+        content: "00:21";
+    }
+    280% {
+        content: "00:20";
+    }
+    281% {
+        content: "00:19";
+    }
+    282% {
+        content: "00:18";
+    }
+    283% {
+        content: "00:17";
+    }
+    284% {
+        content: "00:16";
+    }
+    285% {
+        content: "00:15";
+    }
+    286% {
+        content: "00:14";
+    }
+    287% {
+        content: "00:13";
+    }
+    288% {
+        content: "00:12";
+    }
+    289% {
+        content: "00:11";
+    }
+    290% {
+        content: "00:10";
+    }
+    291% {
+        content: "00:09";
+    }
+    292% {
+        content: "00:08";
+    }
+    293% {
+        content: "00:07";
+    }
+    294% {
+        content: "00:06";
+    }
+    295% {
+        content: "00:05";
+    }
+    296% {
+        content: "00:04";
+    }
+    297% {
+        content: "00:03";
+    }
+    298% {
+        content: "00:02";
+    }
+    299% {
+        content: "00:01";
+    }
+    300% {
+        content: "00:00";
+}
+}
+.informacoesdoproduto {
+    text-align: center;
+}
+
+.imagemdoproduto {
+    max-width: 70%;
+    height: auto;
+    border-radius: 80px;
+    margin: 20px 0;
+}
+
+.informacoesdoproduto ul {
+    list-style: none;
+    padding: 0;
+}
+
+.informacoesdoproduto li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+
+.pre-venda {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pre-venda form {
+    display: inline-block;
+    text-align: left;
+}
+
+.pre-venda label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.pre-venda input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+.pre-venda button {
+    padding: 10px 20px;
+    background-color: #4cb027;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    text-align: center;
+}
+
+.pre-venda button:hover {
+    background-color: #cdec23;
+}
+

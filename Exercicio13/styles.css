@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.promocoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.promocao-item {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+.promocao-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.promocao-item h2 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.promocao-item p {
+    color: #666;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.preco-original {
+    color: red;
+    font-size: 18px;
+}
+
+.preco-desconto {
+    color: rgb(0, 11, 128);
+    font-size: 20px;
+    font-weight: bold;
+}

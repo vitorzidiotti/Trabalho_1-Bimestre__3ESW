@@ -59,7 +59,7 @@ p {
     background-color: #000000;
     color: #fff;
     border-radius: 5px;
-    animation: countdown 150s steps(300) forwards infinite;
+    animation: countdown 150s steps(300);
 }
 
 @keyframes countdown {

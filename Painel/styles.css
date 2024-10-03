@@ -1,0 +1,54 @@
+.layout {
+    padding: 20px;
+    align-items: center;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+   
+}
+.exercicio01{
+
+font-size: large;
+color: black;
+height: 10px;;
+
+}
+h1{
+text-align: center;
+color:rgb(154, 96, 38);
+}
+
+li {
+    text-align: center;
+}
+
+li img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+
+}
+
+li img:hover {
+    transform: scale(1.1);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #389879;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
